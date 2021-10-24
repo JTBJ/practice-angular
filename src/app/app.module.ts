@@ -17,11 +17,7 @@ import { ServerComponent } from './server/server.component';
   /**Within the declarations array, we register our custom components. All components must be imported. */
   declarations: [ AppComponent, HelloComponent, ServerComponent ],
 
-  /**tell angular to bootstrap the entire application with this
-   * being the root component. All our other components will not
-   * be added to the index.html file, but their selectors will be
-   * added to the AppComponent.html file as this is the root 
-   * component of our app.
+  /**tell angular to bootstrap the entire application with this being the root component. All our other components will not be added to the index.html file, but their selectors will be added to the AppComponent.html file as this is the root component of our app.
   */
   bootstrap:    [ AppComponent ]
 })
